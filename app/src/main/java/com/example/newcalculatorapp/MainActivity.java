@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(obj);
             }
         });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent obj1= new Intent(getApplicationContext(),Substraction.class);
+                startActivity(obj1);
+            }
+        });
 
     }
 }
